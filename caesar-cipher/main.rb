@@ -32,6 +32,3 @@ def shifter(character, shift)
     end
   end
 end
-
-puts caesar_cipher("rich e", 27)
-puts caesar_cipher("AMOONGUS", 20)

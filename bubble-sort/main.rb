@@ -1,4 +1,5 @@
 #numbers must be an array
+#kind of a 'brute force' method, will write an alternative later
 def bubble_sort(numbers)
   numbers.length.times do
     numbers.each_with_index do |number, index|

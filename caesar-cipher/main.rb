@@ -1,6 +1,6 @@
 def caesar_cipher(string, shift)
   string_characters = string.bytes
-  string_characters.map do |char|
+  shifted_string = string_characters.map do |char|
     shift_counter = shift 
     unless ((char >= 65 && char <= 90) || (char >= 97 && char <= 122))
       char
@@ -27,6 +27,8 @@ def caesar_cipher(string, shift)
     end
     char.chr
   end
+  shifted_string.join('')
 end
 
-p caesar_cipher("A z Z a", -51)
+puts caesar_cipher("Frank Zappa", 1)
+puts caesar_cipher("DavidB owie", -33)

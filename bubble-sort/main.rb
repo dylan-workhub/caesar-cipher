@@ -17,4 +17,7 @@ def bubble_sort(numbers)
 end
 
 bubble_sort([5, 4, 3, 2, 1])
+# => [1, 2, 3, 4, 5]
+
 bubble_sort([5, 7, 9, 1, 3, 5])
+# => [1, 3, 5, 5, 7, 9]

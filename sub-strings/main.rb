@@ -16,4 +16,4 @@ def sub_strings(string, dictionary)
   return dictionary_hash
 end
 
-p sub_strings("siterator it lowlow", dictionary)
+p sub_strings("siterator belowit lowhornlow PART", dictionary)

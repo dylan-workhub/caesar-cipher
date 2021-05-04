@@ -16,7 +16,7 @@ def stock_picker(stocks)
     end
   end
   sorted_totals = stock_total_array.sort_by {|hash| hash[:total]}
-  return sorted_totals[-1][:total]
+  return sorted_totals[-1][:dates]
 end
 
-stock_picker([1, 3, 6, 7, 29])
+stock_picker([28, 3, 1, 300, 29])
